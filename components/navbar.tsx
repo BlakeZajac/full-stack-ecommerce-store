@@ -18,7 +18,7 @@ const Navbar = async () => {
             href="/"
             className="ml-4 flex w-fit lg:ml-0 gap-x-2 transition-all hover:opacity-50 hover:transition-all"
           >
-            <Image src={logo} alt="Site logo" className="h-10 w-fit" />
+            <Image src={logo} alt="Site logo" className="h-8 w-fit" />
           </Link>
 
           <MainNav data={categories} />
