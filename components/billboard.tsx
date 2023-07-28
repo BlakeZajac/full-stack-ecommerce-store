@@ -6,7 +6,7 @@ interface BillboardProps {
 
 const Billboard: React.FC<BillboardProps> = ({ data }) => {
   return (
-    <div className="p-4 sm:p-6 lg:p-8 rounded-xl overflow-hidden">
+    <div className="pt-4 sm:pt-6 lg:pt-8 rounded-xl overflow-hidden">
       <div
         className="rounded-xl relative min-h-[500px] max-h-[600px] overflow-hidden bg-cover"
         style={{ backgroundImage: `url(${data?.imageUrl})` }}
