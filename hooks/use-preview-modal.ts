@@ -1,7 +1,6 @@
 import { create } from "zustand";
 
 import { Product } from "@/types";
-import { Divide } from "lucide-react";
 
 interface PreviewModalStore {
   isOpen: boolean;
