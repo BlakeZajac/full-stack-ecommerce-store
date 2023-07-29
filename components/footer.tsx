@@ -13,7 +13,7 @@ const Footer = () => {
           <p className="text-sm text-black">
             Developed by{" "}
             <a
-              href="https://blakezjac.com"
+              href="https://blakezajac.com"
               target="_blank"
               className="text-sm pb-[2px] border-b hover:border-black"
             >
