@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-white border-t">
       <Container>
-        <div className="flex items-center justify-between mx-auto py-6">
+        <div className="flex flex-wrap gap-x-4 gap-y-1 items-center justify-between mx-auto py-6">
           <p className="text-sm text-black">
             {/* Copyright disclaimer with the current year */}
             &copy; {new Date().getFullYear()} Blake Zajac. All rights reserved.
