@@ -45,9 +45,7 @@ const ProductCard: React.FC<ProductCard> = ({ data }) => {
         <div className="opacity-0 group-hover:opacity-100 transition absolute w-full px-6 bottom-5">
           <div className="flex gap-x-4 justify-center">
             <IconButton
-              onClick={() => {
-                onPreview;
-              }}
+              onClick={onPreview}
               icon={<Expand size={20} className="text-black" />}
             />
 
