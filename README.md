@@ -1,4 +1,4 @@
-## Full stack ecommerce store
+# Full stack ecommerce store
 
 For demo, use [Stripe Testing Cards](https://stripe.com/docs/testing)
 
