@@ -17,6 +17,16 @@ const CartPage: React.FC<CartPageProps> = ({}) => {
     return total + Number(item.price);
   }, 0);
 
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  if (!isMounted) {
+    return null;
+  }
+
   return (
     <div className="bg-white">
       <Container>
